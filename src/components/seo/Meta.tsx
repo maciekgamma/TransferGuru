@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import { useRouter } from 'next/router'
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 export default function Meta() {
-  const baseUrl = 'https://next-starter.bhanuteja.dev'
-  const router = useRouter()
+  const baseUrl = 'https://next-starter.bhanuteja.dev';
+  const router = useRouter();
   return (
     <Head>
       <meta charSet="utf-8" key="charSet" />
@@ -40,5 +40,5 @@ export default function Meta() {
         content={`${baseUrl}/logo.svg`}
       />
     </Head>
-  )
+  );
 }

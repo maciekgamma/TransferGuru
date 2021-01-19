@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Description({ children }: { children: string }) {
-  const description = children
+  const description = children;
   return (
     <Head>
       <meta
@@ -16,5 +16,5 @@ export default function Description({ children }: { children: string }) {
       />
       <meta key="description" name="description" content={description} />
     </Head>
-  )
+  );
 }
